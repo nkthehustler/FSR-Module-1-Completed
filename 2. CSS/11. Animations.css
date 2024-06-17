@@ -1,0 +1,28 @@
+body{
+    background: #313030;
+}
+
+.box{
+    background: gold;
+    width: 200px;
+    height: 200px;
+    animation-name: animate1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes animate1{
+    from{
+        top:0;
+    }
+
+    to{
+        width: 600px;
+        background: orangered;
+        top: 300px;
+    }
+}
